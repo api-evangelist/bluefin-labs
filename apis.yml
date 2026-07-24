@@ -1,20 +1,52 @@
 aid: bluefin-labs
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bluefin-labs.png
 name: Bluefin Labs
-description: Bluefin Labs is a company surfaced as a portfolio company of redpoint-ventures and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: 'Bluefin Labs was a social TV analytics company founded in 2008 in Cambridge, Massachusetts
+  by Deb Roy and Michael Fleischman, spun out of research at the MIT Media Lab. Its platform semantically
+  interpreted public social media commentary from Twitter, Facebook and blogs and automatically linked
+  those comments to the television shows and advertisements people were watching, producing audience
+  engagement measurement for networks, agencies and brands. Its product, Bluefin Signals, gave media
+  buyers a tool for accessing and analyzing social TV response data. The company raised a Series A led
+  by Redpoint Ventures in 2010 and a $12M Series B led by Time Warner Investments in January 2012, with
+  SoftBank Capital and Lerer Ventures participating. Twitter acquired Bluefin Labs on February 6, 2013
+  for a reported ~$100 million and absorbed the team and technology into its TV advertising and analytics
+  products. The company is DEFUNCT: it operates no independent product, developer program or API, and
+  the bluefinlabs.com domain no longer belongs to the company — it now redirects to an unrelated news
+  site. This profile is retained as a historical / portfolio-graph record only.'
 url: https://raw.githubusercontent.com/api-evangelist/bluefin-labs/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - redpoint-ventures
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: defunct-acquired
+x-status: defunct
+x-acquired-by: twitter
+x-acquired-date: '2013-02-06'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Defunct
+- Acquired
+- Analytics
+- Social Media
+- Television
+- Media Measurement
+- Advertising
+- Machine Learning
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +56,21 @@ maintainers:
 common:
 - type: Website
   url: http://bluefinlabs.com/
+  x-status: defunct
+  x-note: 'Domain no longer operated by Bluefin Labs; 301 redirects to an unrelated site (usnewsdaily.com).
+    Verified 2026-07-20.'
+- type: Wikipedia
+  url: https://en.wikipedia.org/wiki/Bluefin_Labs
+- type: InvestorProfile
+  name: Redpoint Ventures portfolio page
+  url: https://www.redpoint.com/companies/bluefin-labs/
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
+  notes: 'Company defunct since the February 2013 Twitter acquisition. No live website, developer portal,
+    documentation, API, GitHub organization or package presence exists. Domain probes returned a parked
+    WordPress soft-404 catch-all (every path, including /.well-known/security.txt, /llms.txt and
+    /openapi.json, returns HTTP 200 with unrelated HTML), so no well-known, security or spec artifacts
+    were harvested. No artifacts written — none would be truthful.'
