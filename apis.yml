@@ -34,7 +34,7 @@ x-tier-reason: defunct-acquired
 x-status: defunct
 x-acquired-by: twitter
 x-acquired-date: '2013-02-06'
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-20'
 tags:
