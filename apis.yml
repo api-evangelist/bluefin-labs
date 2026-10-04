@@ -55,11 +55,11 @@ tags:
 - Defunct
 - Acquired
 - Analytics
-- Social-Media
+- Social Media
 - Television
 - Media Measurement
 - Advertising
-- Machine-Learning
+- Machine Learning
 tags_raw:
 - Company
 - Defunct
@@ -70,6 +70,8 @@ tags_raw:
 - Media Measurement
 - Advertising
 - Machine Learning
+- Social-Media
+- Machine-Learning
 apis: []
 maintainers:
 - FN: Kin Lane
