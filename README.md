@@ -64,19 +64,34 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-**Status: DEFUNCT — acquired by Twitter, February 6, 2013.**
+> **No longer operating.** This company or product has shut down, been discontinued, or been deprecated. This profile is kept as a historical record and is not maintained or rated.
 
-Bluefin Labs was a social TV analytics company founded in 2008 in Cambridge, Massachusetts by Deb Roy and Michael Fleischman, spun out of research at the MIT Media Lab. Its platform semantically interpreted public social media commentary from Twitter, Facebook and blogs and linked it to the television shows and advertisements people were watching, producing audience engagement measurement for networks, agencies and brands. Its product was Bluefin Signals.
+Bluefin Labs was a social TV analytics company founded in 2008 in Cambridge, Massachusetts by Deb Roy and Michael Fleischman, spun out of research at the MIT Media Lab. Its platform semantically interpreted public social media commentary from Twitter, Facebook and blogs and automatically linked those comments to the television shows and advertisements people were watching, producing audience engagement measurement for networks, agencies and brands. Its product, Bluefin Signals, gave media buyers a tool for accessing and analyzing social TV response data. The company raised a Series A led by Redpoint Ventures in 2010 and a $12M Series B led by Time Warner Investments in January 2012, with SoftBank Capital and Lerer Ventures participating. Twitter acquired Bluefin Labs on February 6, 2013 for a reported ~$100 million and absorbed the team and technology into its TV advertising and analytics products. The company is DEFUNCT: it operates no independent product, developer program or API, and the bluefinlabs.com domain no longer belongs to the company — it now redirects to an unrelated news site. This profile is retained as a historical / portfolio-graph record only.
 
-It raised a Series A led by Redpoint Ventures in 2010 and a $12M Series B led by Time Warner Investments in January 2012 (SoftBank Capital, Lerer Ventures participating). Twitter acquired the company on February 6, 2013 for a reported ~$100 million and absorbed the team and technology into its TV advertising and analytics products.
+**Areas:** Company · Defunct · Acquired · Analytics · Social Media · Television · Media Measurement · Advertising · Machine Learning
 
-## API surface
+## Bluefin Labs on APIs.io (historical record)
 
-None. The company never operated a public developer program and no longer exists independently. The `bluefinlabs.com` domain is no longer controlled by the company — it 301-redirects to an unrelated news site, and every path on it (including `/.well-known/security.txt`, `/llms.txt` and `/openapi.json`) returns a WordPress soft-404 catch-all. No artifacts were harvested because none would be truthful. Verified 2026-07-20.
+Everything profiled for Bluefin Labs is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/bluefin-labs/](https://apis.io/providers/bluefin-labs/)** — or go straight to one of the APIs or properties below.
 
-## References
+## Where to find this API
 
-- Wikipedia — https://en.wikipedia.org/wiki/Bluefin_Labs
-- Redpoint Ventures portfolio — https://www.redpoint.com/companies/bluefin-labs/
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
-Backed by: redpoint-ventures
+- [Website](http://bluefinlabs.com/)
+
+## API Evangelist rating
+
+**Not rated** — this company is recorded as no longer operating, so no score is published. If it is in fact operating, say so on this repository and it will be re-profiled.
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Bluefin Labs: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/bluefin-labs/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
